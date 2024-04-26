@@ -281,6 +281,17 @@ files = [
 ]
 
 [[package]]
+name = "csv2md"
+version = "1.3.0"
+description = "Command line tool for converting CSV files into Markdown tables."
+optional = false
+python-versions = "*"
+files = [
+    {file = "csv2md-1.3.0-py3-none-any.whl", hash = "sha256:a6bf9415cfbce509757006825e1215b4d98d52da4172d772e1c4bb6ac9178468"},
+    {file = "csv2md-1.3.0.tar.gz", hash = "sha256:741cc9524ff1e4a4f2b0b1407dad9f8e101ed32a32a07932ed529f3ecc764fcb"},
+]
+
+[[package]]
 name = "curies"
 version = "0.7.9"
 description = "Idiomatic conversion between URIs and compact URIs (CURIEs)."
@@ -2607,4 +2618,4 @@ docs = []
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "45ab0641686b3572e070cc39ae4a66ac504af0e079ac7e36c12fdaee200a1f11"
+content-hash = "24e0e69c0c2afaa3e888ae5210dbd3763e421ea4abce30d57122645f19eb0591"
